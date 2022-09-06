@@ -9,7 +9,6 @@ namespace ConsoleAppThreadStart
     {
         static public void Method()
         {
-           
           Console.WriteLine("Поток запущен");
         }
         static public ThreadStart start = new ThreadStart(Method);
