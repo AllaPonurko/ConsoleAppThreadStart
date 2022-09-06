@@ -18,7 +18,7 @@ namespace ConsoleAppThreadStart
         {
             T = new Thread(start);
             T.Start();
-            //T.Join();
+           
         }
     }
 }
